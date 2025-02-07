@@ -1,4 +1,17 @@
-p{
-    color: rebeccapurple;
-    
+div{
+    border: solid;
 }
+
+#document-container{
+    display: grid;
+    margin: 20px;
+    min-height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+#dashboard-container{
+    
+    grid-row: 1/3;
+}
+

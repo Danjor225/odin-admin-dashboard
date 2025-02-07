@@ -41,7 +41,7 @@
     
 }
 
-#top-header, #bottom-header{
+#top-header {
     display: flex;
     justify-content: space-between;
 }
@@ -55,4 +55,15 @@
    gap: 1rem;
 }
 
+#bottom-header{
+    display: flex;
+    gap: 10px;
 
+}
+
+#bottom-header>div:last-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}

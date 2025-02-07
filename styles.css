@@ -44,6 +44,8 @@
 #top-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 #top-header>div>input{
@@ -53,6 +55,7 @@
 #top-header>div:last-child{
    display: flex;
    gap: 1rem;
+   align-items: center;
 }
 
 #bottom-header{

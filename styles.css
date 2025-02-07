@@ -13,5 +13,22 @@ div{
 #dashboard-container{
     
     grid-row: 1/3;
+    background-color: rgba(31, 131, 224, 0.811);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4rem;
+    color: white;
+    padding: 10px;
+    
+}
+
+#dashboard-container>ul{
+    
+    font-size: 1.2rem;   
+}
+
+#dashboard-container>h1{
+    font-size: 2rem;
 }
 

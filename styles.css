@@ -23,9 +23,44 @@
 
 #dashboard-container>ul{
     
-    font-size: 1.5rem; 
+    font-size: 2rem; 
     font-weight: bold;  
     padding: 20px;
+    padding-left: 30px;
+}
+
+
+/* Custom bullet point practice */
+.list-1{
+    list-style-image: url('./svgs/home-account.svg')
+}
+.list-2{
+    list-style-image: url('./svgs/face-man-profile.svg')
+}
+.list-3{
+    list-style-image: url('./svgs/message-badge.svg')
+}
+.list-4{
+    list-style-image: url('./svgs/history.svg')
+}
+.list-5{
+    list-style-image: url('./svgs/file-multiple.svg')
+}
+.list-6{
+    list-style-image: url('./svgs/account-group.svg')
+}
+.list-7{
+    list-style-image: url('./svgs/cog.svg')
+}
+.list-8{
+    list-style-image: url('./svgs/help.svg')
+}
+.list-9{
+    list-style-image: url('./svgs/shield-check-outline.svg')
+}
+#dashboard-container>ul>li::marker{
+    font-size: 2em;
+    line-height: 0.1;
 }
 
 #dashboard-container>h1{

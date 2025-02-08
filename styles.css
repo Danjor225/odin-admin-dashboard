@@ -50,12 +50,19 @@
 
 #top-header>div>input{
     width: 40vw;
+    background-color: rgba(228, 227, 227, 0.469);
+    border-radius: 10px;
 }
 
 #top-header>div:last-child{
    display: flex;
    gap: 1rem;
    align-items: center;
+}
+
+#top-header>div>p{
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 #bottom-header{
@@ -71,7 +78,28 @@
     margin-left: auto;
 }
 
+#bottom-header>div>button{
+    background-color: rgba(0, 47, 255, 0.743);
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    padding: 0.25rem 2rem;
 
+}
+
+#bottom-header>div>p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#bottom-header>div>span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+/* Content section */
 #content-container{
     grid-row: 2/4;
     height: 100%;

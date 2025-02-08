@@ -84,10 +84,24 @@
     
 }
 
+
+#search-btn::after{
+    content: url(./svgs/magnify.svg);
+    display: inline-block;
+    padding-top: 8px;
+   width: 30px;
+ 
+}
+
 #top-header>div>input{
     width: 40vw;
     background-color: rgba(228, 227, 227, 0.469);
     border-radius: 10px;
+}
+
+#top-header>div:first-child{
+    display: flex;
+    align-items: center;
 }
 
 #top-header>div:last-child{
@@ -99,6 +113,14 @@
 #top-header>div>p{
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+#bell-btn::after{
+    content: url(./svgs/bell-minus-outline.svg);
+    display: inline-block;
+    padding-top: 8px;
+   width: 30px;
+ 
 }
 
 #bottom-header{

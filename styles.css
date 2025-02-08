@@ -75,6 +75,8 @@
 #content-container{
     grid-row: 2/4;
     height: 100%;
+    min-height: 0;
+    min-width: 0;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr;
@@ -96,6 +98,7 @@
     /* grid-auto-rows: 1fr; */
     align-content: space-between;
     
+    
 }
 
 
@@ -111,13 +114,22 @@
     border: solid;
     background-color: white;
     border-radius: 10px;
-    padding: 10px;
+    
     margin-bottom: 5px;
     margin: 0;
     display: flex;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
+
     
+    
+}
+
+.orange-border{
+    min-height: 100%;
+    border-left: solid 10px orange;
+    padding: 10px;
 }
 
 #projects-container>div>div:first-child{
@@ -145,10 +157,12 @@
 #announce-container{
     
     min-height: 50%;
-    min-width: 0;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-grow: 0;
+
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -183,6 +197,7 @@
   min-height: 50%;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
     
 }
 

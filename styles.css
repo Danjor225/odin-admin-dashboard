@@ -186,6 +186,12 @@
     
 }
 
+#trending-container>h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
 #trending-list{
     
     background-color: white;

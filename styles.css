@@ -134,7 +134,7 @@
 }
 
 .cat-logo-2{
-    height: 6rem;
+    height: 5rem;
     width: 5rem;
     padding-bottom: 20px;
 }
@@ -247,6 +247,24 @@
 
 
 }
+
+.eye-icon{
+    content: url('./svgs/eye-plus-outline.svg');
+    height: 1.5rem;
+    
+}
+.star-icon{
+    content: url('./svgs/star-outline.svg');
+    height: 1.5rem;
+    
+}
+.share-icon{
+    content: url('./svgs/file-tree-outline.svg');
+    height: 1.5rem;
+    
+}
+
+
 #right-content-container{
     grid-row: 2/4;
     min-width: 0;

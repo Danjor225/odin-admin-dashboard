@@ -20,6 +20,22 @@
     padding: 10px;
     
 }
+    
+#dashboard-title-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dashboard-logo{
+    display: inline;
+    background-image: url('./svgs/view-dashboard.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 4rem;
+    width: 3rem;
+}
 
 #dashboard-container>ul{
     
@@ -190,7 +206,7 @@
     
 }
 
-#content-container>h3{
+#content-container>h3, #trending-container>h3{
     font-size: 1.5rem;
 }
 

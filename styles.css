@@ -123,6 +123,22 @@
  
 }
 
+
+.cat-logo{
+    background-image: url('./images/cat.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 4rem;
+    width: 3rem;
+}
+
+.cat-logo-2{
+    height: 6rem;
+    width: 5rem;
+    padding-bottom: 20px;
+}
+
 #bottom-header{
     display: flex;
     gap: 10px;
